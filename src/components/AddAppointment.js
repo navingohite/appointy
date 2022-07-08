@@ -35,7 +35,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
             toggleForm ? "rounded-t-md" : "rounded-md"
           }`}
         >
-          <div> Add Appointment</div>
+          <div className="text-muted">Add Appointment</div>
         </button>
       </div>
 
@@ -122,7 +122,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
           <button
             type="submit"
             onClick={formDataPublish}
-            className="btn btn-sm btn-info"
+            className="btn btn-sm btn-outline-info"
           >
             Submit
           </button>

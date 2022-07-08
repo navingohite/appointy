@@ -4,6 +4,7 @@ import AddAppointment from "./components/AddAppointment";
 import AppointmentInfo from "./components/AppointmentInfo";
 import Footer from "./components/Footer";
 import logo from "./images/logo.png"; // gives image path
+import banner from "./images/banner.png"; // gives image path
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
               0
             )}
           />
+          <img src={banner} alt="banner" style={{ width: '600px'}}/>
         </div>
         <div className="col-lg-6">
           <Search
