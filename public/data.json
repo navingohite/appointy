@@ -12,12 +12,5 @@
     "patientName": "Priyanka Pawar",
     "aptNotes": "swelling",
     "aptDate": "20122-07-07 10:15"
-  },
-  {
-    "id": "2",
-    "patientAge": "38",
-    "patientName": "Akshay Kumar",
-    "aptNotes": "muscle weakness",
-    "aptDate": "20122-07-07 14:45"
   }
 ]
