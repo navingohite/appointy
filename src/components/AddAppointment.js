@@ -40,7 +40,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
       </div>
 
       {toggleForm && (
-        <div>
+        <div className="my-2">
           <div className="form-group">
             <label htmlFor="patientName">Patient Name</label>
             <div>
